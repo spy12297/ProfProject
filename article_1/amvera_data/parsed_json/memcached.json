@@ -1,0 +1,9 @@
+{
+    "text": "memcached облако amvera поддерживает создание преднастроенного сервиса memcached создание memcached осуществляется в разделе «преднастроенные сервисы» и не требует ввода переменных подключение memcached пример подключения из приложения на python from pymemcache client import base client base client host 11211 вместо host следует указать внутреннее доменное имя проекта memcached которое можно найти во вкладке «домены»",
+    "metadata": {
+        "file_name": "memcached.md",
+        "section_count": 2,
+        "section_1": "Memcached",
+        "section_2": "Подключение Memcached"
+    }
+}

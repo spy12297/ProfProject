@@ -1,0 +1,8 @@
+{
+    "text": "redash для использования redash нам потребуется отдельно создать postgres и redis redash1 img redash1 png redash2 img redash2 png redash3 img redash3 png redash4 img redash4 png redash5 img redash5 png redash6 img redash6 png redash7 img redash7 png redash8 img redash8 png redash9 img redash9 png redash10 img redash10 png redash11 img redash11 png redash12 img redash12 png теперь создаём redash redash13 img redash13 png redash14 img redash14 png заполнить переменные окружения redash database url url к postgresql в формате postgresql username password host 5432 db name redash redis url url к redis в формате redis username password host 6379 0 redash cookie secret любая последовательность букв и цифр redash cookie secret любая последовательность букв и цифр redash15 img redash15 png создать доменное имя redash16 img redash16 png redash17 img redash17 png перейти на него и заполнить поля redash18 img redash18 png для подключения postgres к redash перейдите во вкладку settings redash19 img redash19 png redash20 img redash20 png redash21 img redash21 png заполните соответсвующие поля redash22 img redash22 png redash23 img redash23 png",
+    "metadata": {
+        "file_name": "redash.md",
+        "section_count": 1,
+        "section_1": "Redash"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "text": "rabbitmq облако amvera поддерживает создание преднастроенного сервиса rabbitmq создание rabbitmq для создания rabbitmq его следует выбрать в разделе «преднастроенные сервисы» и задать следующие переменные rabbitmq default user имя пользователя по умолчанию guest rabbitmq default pass пароль по умолчанию guest rabbitmq default vhost виртуальный host по умолчанию vhost нужен чтобы подключаться к очереди rabbitmq server additional erl args переменная опциональна и устанавливает уровень логирования и т д подключение к rabbitmq для подключения к rabbitmq из приложения следует использовать следующий шаблон заменив соответствующие значения на ваши параметры вместо host указывается внутреннее доменное имя проекта c rabbitmq которое можно найти во вкладке «домены» amqp login password host 5672 vhost при возникновении вопросов пишите на почту support amvera ru",
+    "metadata": {
+        "file_name": "rabbitmq.md",
+        "section_count": 3,
+        "section_1": "RabbitMQ",
+        "section_2": "Создание RabbitMQ",
+        "section_3": "Подключение к RabbitMQ"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "text": "node js browser данная конфигурация подходит если проект использует окружение node js и пакетный менеджер npm для сборки приложения для работы в браузере в этом случае проект может быть написан на таких языках как javascript или typescript данная конфигурация предназначена для браузерных приложений для серверных приложений см node js server https docs amvera ru books amvera page nodejs server написать yaml файл можно как самостоятельно используя инструкцию ниже так и воспользоваться нашим генератором yaml перейдя по ссылке https manifest amvera ru секция meta секция meta файла amvera yml будет выглядеть следующим образом yaml meta environment node toolchain name browser version 18 из параметров которые можно здесь менять это meta toolchain version логически это версия node js которую нужно использовать для работы технически значение version подставляется в имя образа docker который будет использован для фазы сборки используется образ node meta toolchain version так как для фазы запуска node js вообще не используется meta toolchain version может быть любым тегом этого образа на докер хабе https hub docker com node tags секция build секция build может содержать следующие необязательные параметры additionalcommands artifacts во время сборки скрипт выполняет команду npm install npm run build если будет задан параметр additionalcommands то будет выполнена команда npm install build additionalcommands это может пригодиться если в проекте команда сборки называется не build yaml build additionalcommands npm run amvera build параметр artifacts позволяет указать какие файлы должны попасть в итоговое приложение по умолчанию будут скопированы все файлы из папки build в корень папки приложения параметр artifacts в отличие от других параметров это не строка а словарь ключ в нем это маска файлов источника копирования а значение папка в которую будут скопированы файлы так значение artifacts по умолчанию yaml build artifacts build мы используем следующие правила копирования в качестве источника указываются только относительные пути без в начале если под маску попал файл файл будет скопирован в папку назначения без исходного пути если под маску попала папка она будет скопирована целиком в папку назначения вместе со всем содержимым секция run для запуска используется модифицированный образ nginx 1 23 2 для поддержки маршрутизации в spa приложениях в секции run нет настраиваемых параметров рецепты react yaml meta environment node toolchain name browser version 18 vue yaml meta environment node toolchain name browser version 18 build artifacts dist angular yaml meta environment node toolchain name browser version 18 build artifacts dist my app",
+    "metadata": {
+        "file_name": "nodejs-browser.md",
+        "section_count": 8,
+        "section_1": "Node.JS Browser",
+        "section_2": "Секция meta",
+        "section_3": "Секция build",
+        "section_4": "Секция run",
+        "section_5": "Рецепты",
+        "section_6": "React",
+        "section_7": "Vue",
+        "section_8": "Angular"
+    }
+}

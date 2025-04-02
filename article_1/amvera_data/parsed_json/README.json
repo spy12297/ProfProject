@@ -1,0 +1,16 @@
+{
+    "text": "документация для облака амвера для ведения документации используется www sphinx doc org с шаблоном furo cheatsheet https lpn doc sphinx primer readthedocs io en stable cheatsheet html example https foss heptapod net fluiddyn fluiddyn tree branch default doc ref type heads использование 1 установите нужные пакеты из requirements txt 2 в корневой папке запустите make html 3 в папке build html откройте index html 4 вы великолепны общие требования к оформлению 1 в качестве файлов документации следует использовать формат markdown или rst 2 оглавления оформляются внутри файлов rst 3 использование нотации заголовков допускается именно для заголовков нельзя использовать этот символ для выделения информации используйте специальные символы выделения bold 4 требуется соблюдать иерархию заголовков после заголовка первого уровня может идти только второго а не сразу третьего 5 избегаем обращения к аудитории и таких выражений как ваше приложение а чьё оно ещё наше можно а можно и нет в исключительных случаях такое можно оставить 6 называем файлы и папки понятными словами и сокращениями так как они фигурируют в url 7 ссылки на другие страницы документации указывать относительный без docs amvera ru используемые элементы conf py конфигурация доки python extensions myst nb sphinx ext intersphinx sphinxcontrib youtube templates path templates exclude patterns language ru source suffix rst restructuredtext md myst nb ipynb myst nb myst myst nb html theme furo html static path static html title html favicon img logo svg html theme options light logo logo light png dark logo logo dark png myst heading anchors 3 сколько уровней заголовков маркдаун учитывать в ссылках структура rst руководство amvera cloud amvera cloud сервис для развертывания it приложений субд и других программ в облаке toctree maxdepth 2 caption развертывание general examples applications quick start general faq видео ext sphinxcontrib youtube rst youtube qxaulhcedhm code of video from url align center width 100 markdown ext myst nb https myst nb readthedocs io en latest configuration html и для правильного отображения заголовков sphinx ext intersphinx вызов методов rst markdown eval rst youtube qxaulhcedhm align center width 100 markdown eval rst admonition важно class warning сборка приложения осуществляется в дополнительном контейнере тарифицирующемся так же как и само приложение из за чего текущее количество работающих инстансов может быть больше требуемого",
+    "metadata": {
+        "file_name": "README.md",
+        "section_count": 9,
+        "section_1": "Документация для облака Амвера",
+        "section_2": "Использование:",
+        "section_3": "Общие требования к оформлению:",
+        "section_4": "Используемые элементы",
+        "section_5": "conf.py:",
+        "section_6": "Структура ",
+        "section_7": "Видео",
+        "section_8": "Markdown",
+        "section_9": "Вызов методов rst"
+    }
+}
