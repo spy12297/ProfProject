@@ -1,0 +1,7 @@
+torch>=2.2.0
+sentence-transformers>=2.5.0
+chromadb>=0.4.24
+streamlit>=1.32.0
+python-docx>=0.8.11
+pandas>=2.2.0
+python-pptx>=0.6.21
