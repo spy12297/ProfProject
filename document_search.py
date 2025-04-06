@@ -16,7 +16,7 @@ import pytesseract
 
 # Системные константы
 CURRENT_USER = "spy12297"
-CURRENT_TIME = datetime.strptime("2025-04-06 17:33:49", "%Y-%m-%d %H:%M:%S")
+CURRENT_TIME = datetime.strptime("2025-04-06 17:56:25", "%Y-%m-%d %H:%M:%S")
 CHUNK_SIZE = 1000
 BATCH_SIZE = 50
 UNRAR_PATH = r"C:\Program Files\UnRAR.exe"
